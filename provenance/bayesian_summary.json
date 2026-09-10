@@ -1,0 +1,223 @@
+{
+  "accuracy_uncertainty": "cluster bootstrap of the validation design, items resampled within stratum, paired (Se, Sp)",
+  "prevalence_prior": "Beta(1,1), grid-exact conditional posterior",
+  "replicates": 2000,
+  "grid_points": 6001,
+  "grid_max": 0.3,
+  "seed": 20260910,
+  "n_corpus": 93371,
+  "n_validation_items": 1019,
+  "enrichment": "excluded, strata not recoverable",
+  "domains": [
+    {
+      "domain": "pain",
+      "observed_pct": 8.775,
+      "point_sensitivity": 0.9036,
+      "point_specificity": 0.9636,
+      "rogan_gladen_pct": 5.923,
+      "corrected_pct": 5.925,
+      "ci95_pct": [
+        4.62,
+        7.315
+      ],
+      "bootstrap_draws": 2000,
+      "se_sp_correlation": 0.03
+    },
+    {
+      "domain": "fatigue",
+      "observed_pct": 4.447,
+      "point_sensitivity": 0.8682,
+      "point_specificity": 0.9765,
+      "rogan_gladen_pct": 2.486,
+      "corrected_pct": 2.485,
+      "ci95_pct": [
+        1.605,
+        3.58
+      ],
+      "bootstrap_draws": 2000,
+      "se_sp_correlation": 0.003
+    },
+    {
+      "domain": "physical_function",
+      "observed_pct": 4.345,
+      "point_sensitivity": 0.8548,
+      "point_specificity": 0.98,
+      "rogan_gladen_pct": 2.808,
+      "corrected_pct": 2.805,
+      "ci95_pct": [
+        1.905,
+        3.905
+      ],
+      "bootstrap_draws": 2000,
+      "se_sp_correlation": 0.008
+    },
+    {
+      "domain": "bowel",
+      "observed_pct": 3.615,
+      "point_sensitivity": 0.708,
+      "point_specificity": 0.9668,
+      "rogan_gladen_pct": 0.431,
+      "corrected_pct": 0.45,
+      "ci95_pct": [
+        0.0,
+        1.955
+      ],
+      "bootstrap_draws": 2000,
+      "se_sp_correlation": 0.066
+    },
+    {
+      "domain": "cognition",
+      "observed_pct": 3.22,
+      "point_sensitivity": 1.0,
+      "point_specificity": 0.987,
+      "rogan_gladen_pct": 1.949,
+      "corrected_pct": 1.965,
+      "ci95_pct": [
+        1.44,
+        2.415
+      ],
+      "bootstrap_draws": 2000,
+      "se_sp_correlation": null
+    },
+    {
+      "domain": "urinary",
+      "observed_pct": 2.519,
+      "point_sensitivity": 0.8391,
+      "point_specificity": 0.9835,
+      "rogan_gladen_pct": 1.056,
+      "corrected_pct": 1.055,
+      "ci95_pct": [
+        0.33,
+        2.015
+      ],
+      "bootstrap_draws": 2000,
+      "se_sp_correlation": -0.01
+    },
+    {
+      "domain": "respiratory",
+      "observed_pct": 1.875,
+      "point_sensitivity": 0.8332,
+      "point_specificity": 0.9921,
+      "rogan_gladen_pct": 1.315,
+      "corrected_pct": 1.295,
+      "ci95_pct": [
+        0.9,
+        2.035
+      ],
+      "bootstrap_draws": 2000,
+      "se_sp_correlation": 0.001
+    },
+    {
+      "domain": "neuropathy",
+      "observed_pct": 1.805,
+      "point_sensitivity": 1.0,
+      "point_specificity": 0.9931,
+      "rogan_gladen_pct": 1.119,
+      "corrected_pct": 1.125,
+      "ci95_pct": [
+        0.77,
+        1.425
+      ],
+      "bootstrap_draws": 2000,
+      "se_sp_correlation": null
+    },
+    {
+      "domain": "sexual_reproductive",
+      "observed_pct": 1.633,
+      "point_sensitivity": 0.402,
+      "point_specificity": 0.9925,
+      "rogan_gladen_pct": 2.238,
+      "corrected_pct": 2.195,
+      "ci95_pct": [
+        1.18,
+        3.975
+      ],
+      "bootstrap_draws": 2000,
+      "se_sp_correlation": -0.012
+    },
+    {
+      "domain": "swallowing",
+      "observed_pct": 1.193,
+      "point_sensitivity": 1.0,
+      "point_specificity": 0.9927,
+      "rogan_gladen_pct": 0.464,
+      "corrected_pct": 0.465,
+      "ci95_pct": [
+        0.14,
+        0.75
+      ],
+      "bootstrap_draws": 2000,
+      "se_sp_correlation": null
+    },
+    {
+      "domain": "limb_lymphedema",
+      "observed_pct": 0.636,
+      "point_sensitivity": 1.0,
+      "point_specificity": 0.9985,
+      "rogan_gladen_pct": 0.491,
+      "corrected_pct": 0.495,
+      "ci95_pct": [
+        0.385,
+        0.585
+      ],
+      "bootstrap_draws": 2000,
+      "se_sp_correlation": null
+    },
+    {
+      "domain": "speech_voice",
+      "observed_pct": 0.407,
+      "point_sensitivity": 1.0,
+      "point_specificity": 0.9975,
+      "rogan_gladen_pct": 0.159,
+      "corrected_pct": 0.16,
+      "ci95_pct": [
+        0.06,
+        0.265
+      ],
+      "bootstrap_draws": 2000,
+      "se_sp_correlation": null
+    },
+    {
+      "domain": "visual",
+      "observed_pct": 0.379,
+      "point_sensitivity": 1.0,
+      "point_specificity": 0.9981,
+      "rogan_gladen_pct": 0.188,
+      "corrected_pct": 0.19,
+      "ci95_pct": [
+        0.085,
+        0.28
+      ],
+      "bootstrap_draws": 2000,
+      "se_sp_correlation": null
+    },
+    {
+      "domain": "hearing",
+      "observed_pct": 0.213,
+      "point_sensitivity": 1.0,
+      "point_specificity": 0.999,
+      "rogan_gladen_pct": 0.114,
+      "corrected_pct": 0.115,
+      "ci95_pct": [
+        0.06,
+        0.17
+      ],
+      "bootstrap_draws": 2000,
+      "se_sp_correlation": null
+    },
+    {
+      "domain": "any_domain",
+      "observed_pct": 19.887,
+      "point_sensitivity": 0.8462,
+      "point_specificity": 0.9092,
+      "rogan_gladen_pct": 14.312,
+      "corrected_pct": 14.33,
+      "ci95_pct": [
+        12.11,
+        16.7
+      ],
+      "bootstrap_draws": 2000,
+      "se_sp_correlation": 0.051
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "eligibility": {
+    "corpus": {
+      "condition_search": "cancer",
+      "study_type": "INTERVENTIONAL",
+      "registered_on_or_before": "2026-07-31",
+      "requires_outcome_measure": true
+    },
+    "therapeutic_subset": {
+      "registered_from": "2010-01-01",
+      "primary_purpose": "TREATMENT",
+      "malignancy_evidence": "regex over registered conditions"
+    }
+  },
+  "rebuilt": {
+    "corpus": 93371,
+    "any_domain_pct": 19.89,
+    "date_and_purpose_eligible": 55655,
+    "therapeutic_subset": 51227,
+    "cisplatin_trials": 2178,
+    "cisplatin_hearing": 27
+  },
+  "published": {
+    "corpus": 96936,
+    "any_domain_pct": 19.74,
+    "therapeutic_subset": 55178,
+    "date_and_purpose_eligible": 58221,
+    "cisplatin_trials": 2653,
+    "cisplatin_hearing": 28,
+    "cisplatin_hearing_pct": 1.06
+  },
+  "domains": [
+    {
+      "domain": "pain",
+      "rebuilt_pct": 8.77,
+      "published_pct": 8.7,
+      "diff_pp": 0.07
+    },
+    {
+      "domain": "fatigue",
+      "rebuilt_pct": 4.45,
+      "published_pct": 4.46,
+      "diff_pp": -0.01
+    },
+    {
+      "domain": "physical_function",
+      "rebuilt_pct": 4.35,
+      "published_pct": 4.29,
+      "diff_pp": 0.06
+    },
+    {
+      "domain": "bowel",
+      "rebuilt_pct": 3.61,
+      "published_pct": 3.59,
+      "diff_pp": 0.02
+    },
+    {
+      "domain": "cognition",
+      "rebuilt_pct": 3.22,
+      "published_pct": 3.19,
+      "diff_pp": 0.03
+    },
+    {
+      "domain": "urinary",
+      "rebuilt_pct": 2.52,
+      "published_pct": 2.5,
+      "diff_pp": 0.02
+    },
+    {
+      "domain": "respiratory",
+      "rebuilt_pct": 1.88,
+      "published_pct": 1.88,
+      "diff_pp": -0.0
+    },
+    {
+      "domain": "neuropathy",
+      "rebuilt_pct": 1.8,
+      "published_pct": 1.81,
+      "diff_pp": -0.01
+    },
+    {
+      "domain": "sexual_reproductive",
+      "rebuilt_pct": 1.63,
+      "published_pct": 1.6,
+      "diff_pp": 0.03
+    },
+    {
+      "domain": "swallowing",
+      "rebuilt_pct": 1.19,
+      "published_pct": 1.21,
+      "diff_pp": -0.02
+    },
+    {
+      "domain": "limb_lymphedema",
+      "rebuilt_pct": 0.64,
+      "published_pct": 0.62,
+      "diff_pp": 0.02
+    },
+    {
+      "domain": "speech_voice",
+      "rebuilt_pct": 0.41,
+      "published_pct": 0.4,
+      "diff_pp": 0.01
+    },
+    {
+      "domain": "visual",
+      "rebuilt_pct": 0.38,
+      "published_pct": 0.38,
+      "diff_pp": -0.0
+    },
+    {
+      "domain": "hearing",
+      "rebuilt_pct": 0.21,
+      "published_pct": 0.21,
+      "diff_pp": 0.0
+    }
+  ],
+  "mean_absolute_difference_pp": 0.021,
+  "output": "data/cohort.csv.gz"
+}

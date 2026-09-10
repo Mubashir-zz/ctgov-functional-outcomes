@@ -1,0 +1,81 @@
+{
+  "rule_version": "v0_1",
+  "n_outcome_rows": 727447,
+  "n_trials": 117735,
+  "n_trials_any_domain": 22244,
+  "output": "data/trial_domain_labels.csv.gz",
+  "evidence_output": null,
+  "prevalence": [
+    {
+      "domain": "cognition",
+      "trials_measuring": 3673,
+      "prevalence": 0.031197180107869368
+    },
+    {
+      "domain": "neuropathy",
+      "trials_measuring": 1925,
+      "prevalence": 0.016350278167070114
+    },
+    {
+      "domain": "fatigue",
+      "trials_measuring": 4692,
+      "prevalence": 0.03985221047267168
+    },
+    {
+      "domain": "pain",
+      "trials_measuring": 9436,
+      "prevalence": 0.08014609079712914
+    },
+    {
+      "domain": "physical_function",
+      "trials_measuring": 4733,
+      "prevalence": 0.04020045016350278
+    },
+    {
+      "domain": "swallowing",
+      "trials_measuring": 1317,
+      "prevalence": 0.011186138361574723
+    },
+    {
+      "domain": "speech_voice",
+      "trials_measuring": 486,
+      "prevalence": 0.004127914383997962
+    },
+    {
+      "domain": "hearing",
+      "trials_measuring": 257,
+      "prevalence": 0.002182868305941309
+    },
+    {
+      "domain": "respiratory",
+      "trials_measuring": 2030,
+      "prevalence": 0.017242111521637574
+    },
+    {
+      "domain": "bowel",
+      "trials_measuring": 3891,
+      "prevalence": 0.033048796024971336
+    },
+    {
+      "domain": "urinary",
+      "trials_measuring": 2850,
+      "prevalence": 0.02420690533825965
+    },
+    {
+      "domain": "sexual_reproductive",
+      "trials_measuring": 2048,
+      "prevalence": 0.017394997239563427
+    },
+    {
+      "domain": "limb_lymphedema",
+      "trials_measuring": 744,
+      "prevalence": 0.006319276340935151
+    },
+    {
+      "domain": "visual",
+      "trials_measuring": 441,
+      "prevalence": 0.0037457000891833354
+    }
+  ],
+  "validated_extractor": false
+}

@@ -1,0 +1,281 @@
+{
+  "population": "restricted therapeutic subset",
+  "n_trials": 51227,
+  "n_strata": 132,
+  "standardisation": "11 site groups x 4 phase groups x 3 eras; cohort stratum distribution as standard, renormalised over agent-supported strata",
+  "interval_method": "nonparametric bootstrap over trials, numerator and denominator recomputed jointly; BCa primary, percentile reported alongside",
+  "replicates": 2000,
+  "seed": 20260910,
+  "pairs": [
+    {
+      "agent": "cisplatin",
+      "domain": "hearing",
+      "role": "primary",
+      "n_agent_trials": 2189,
+      "agent_events": 27,
+      "standardised_pct": 1.723,
+      "comparator_pct": 0.145,
+      "rate_ratio": 11.88,
+      "ci95_bca": [
+        6.336,
+        21.923
+      ],
+      "ci95_percentile": [
+        5.201,
+        19.73
+      ],
+      "bootstrap_replicates_used": 2000,
+      "published_standardised_pct": 1.72,
+      "published_comparator_pct": 0.18,
+      "published_rate_ratio": 9.39
+    },
+    {
+      "agent": "carboplatin",
+      "domain": "hearing",
+      "role": "secondary",
+      "n_agent_trials": 2139,
+      "agent_events": 7,
+      "standardised_pct": 0.609,
+      "comparator_pct": 0.147,
+      "rate_ratio": 4.131,
+      "ci95_bca": [
+        2.104,
+        8.858
+      ],
+      "ci95_percentile": [
+        0.935,
+        6.509
+      ],
+      "bootstrap_replicates_used": 2000,
+      "published_standardised_pct": 0.61,
+      "published_comparator_pct": 0.17,
+      "published_rate_ratio": 3.53
+    },
+    {
+      "agent": "cisplatin",
+      "domain": "neuropathy",
+      "role": "secondary",
+      "n_agent_trials": 2189,
+      "agent_events": 47,
+      "standardised_pct": 4.126,
+      "comparator_pct": 1.883,
+      "rate_ratio": 2.191,
+      "ci95_bca": [
+        1.079,
+        4.271
+      ],
+      "ci95_percentile": [
+        0.875,
+        3.742
+      ],
+      "bootstrap_replicates_used": 2000,
+      "published_standardised_pct": null,
+      "published_comparator_pct": null,
+      "published_rate_ratio": 1.93
+    },
+    {
+      "agent": "taxane",
+      "domain": "neuropathy",
+      "role": "secondary",
+      "n_agent_trials": 4119,
+      "agent_events": 100,
+      "standardised_pct": 2.37,
+      "comparator_pct": 1.844,
+      "rate_ratio": 1.286,
+      "ci95_bca": [
+        0.744,
+        2.057
+      ],
+      "ci95_percentile": [
+        0.812,
+        2.293
+      ],
+      "bootstrap_replicates_used": 2000,
+      "published_standardised_pct": null,
+      "published_comparator_pct": null,
+      "published_rate_ratio": 1.91
+    },
+    {
+      "agent": "oxaliplatin",
+      "domain": "neuropathy",
+      "role": "secondary",
+      "n_agent_trials": 1308,
+      "agent_events": 27,
+      "standardised_pct": 2.792,
+      "comparator_pct": 1.91,
+      "rate_ratio": 1.462,
+      "ci95_bca": [
+        0.717,
+        2.805
+      ],
+      "ci95_percentile": [
+        0.634,
+        2.647
+      ],
+      "bootstrap_replicates_used": 2000,
+      "published_standardised_pct": null,
+      "published_comparator_pct": null,
+      "published_rate_ratio": 1.8
+    },
+    {
+      "agent": "bortezomib",
+      "domain": "neuropathy",
+      "role": "secondary",
+      "n_agent_trials": 408,
+      "agent_events": 31,
+      "standardised_pct": 2.299,
+      "comparator_pct": 2.362,
+      "rate_ratio": 0.974,
+      "ci95_bca": [
+        0.547,
+        1.3
+      ],
+      "ci95_percentile": [
+        0.672,
+        1.441
+      ],
+      "bootstrap_replicates_used": 2000,
+      "published_standardised_pct": 3.43,
+      "published_comparator_pct": 2.43,
+      "published_rate_ratio": null
+    },
+    {
+      "agent": "imid",
+      "domain": "neuropathy",
+      "role": "secondary",
+      "n_agent_trials": 986,
+      "agent_events": 38,
+      "standardised_pct": 1.162,
+      "comparator_pct": 1.976,
+      "rate_ratio": 0.588,
+      "ci95_bca": [
+        0.345,
+        0.901
+      ],
+      "ci95_percentile": [
+        0.387,
+        1.021
+      ],
+      "bootstrap_replicates_used": 2000,
+      "published_standardised_pct": null,
+      "published_comparator_pct": null,
+      "published_rate_ratio": 1.29
+    },
+    {
+      "agent": "cisplatin",
+      "domain": "limb_lymphedema",
+      "role": "negative control",
+      "n_agent_trials": 2189,
+      "agent_events": 12,
+      "standardised_pct": 0.266,
+      "comparator_pct": 0.242,
+      "rate_ratio": 1.099,
+      "ci95_bca": [
+        0.449,
+        2.066
+      ],
+      "ci95_percentile": [
+        0.459,
+        2.076
+      ],
+      "bootstrap_replicates_used": 2000,
+      "published_standardised_pct": null,
+      "published_comparator_pct": null,
+      "published_rate_ratio": 0.7
+    },
+    {
+      "agent": "cisplatin",
+      "domain": "visual",
+      "role": "negative control",
+      "n_agent_trials": 2189,
+      "agent_events": 6,
+      "standardised_pct": 0.188,
+      "comparator_pct": 0.322,
+      "rate_ratio": 0.586,
+      "ci95_bca": [
+        0.18,
+        1.505
+      ],
+      "ci95_percentile": [
+        0.089,
+        1.281
+      ],
+      "bootstrap_replicates_used": 2000,
+      "published_standardised_pct": null,
+      "published_comparator_pct": null,
+      "published_rate_ratio": 0.25
+    },
+    {
+      "agent": "taxane",
+      "domain": "visual",
+      "role": "negative control",
+      "n_agent_trials": 4119,
+      "agent_events": 12,
+      "standardised_pct": 0.481,
+      "comparator_pct": 0.294,
+      "rate_ratio": 1.634,
+      "ci95_bca": [
+        0.772,
+        3.217
+      ],
+      "ci95_percentile": [
+        0.574,
+        2.731
+      ],
+      "bootstrap_replicates_used": 2000,
+      "published_standardised_pct": null,
+      "published_comparator_pct": null,
+      "published_rate_ratio": 1.0
+    },
+    {
+      "agent": "bortezomib",
+      "domain": "hearing",
+      "role": "negative control",
+      "n_agent_trials": 408,
+      "agent_events": 0,
+      "standardised_pct": 0.0,
+      "comparator_pct": 0.073,
+      "rate_ratio": null,
+      "ci95_bca": null,
+      "ci95_percentile": null,
+      "status": "not estimable: zero agent events",
+      "published_rate_ratio": null
+    },
+    {
+      "agent": "vincristine",
+      "domain": "limb_lymphedema",
+      "role": "negative control",
+      "n_agent_trials": 705,
+      "agent_events": 0,
+      "standardised_pct": 0.0,
+      "comparator_pct": 0.637,
+      "rate_ratio": null,
+      "ci95_bca": null,
+      "ci95_percentile": null,
+      "status": "not estimable: zero agent events",
+      "published_rate_ratio": null
+    },
+    {
+      "agent": "cisplatin",
+      "domain": "speech_voice",
+      "role": "negative control (post hoc excluded)",
+      "n_agent_trials": 2189,
+      "agent_events": 29,
+      "standardised_pct": 0.638,
+      "comparator_pct": 0.355,
+      "rate_ratio": 1.795,
+      "ci95_bca": [
+        0.597,
+        5.604
+      ],
+      "ci95_percentile": [
+        0.495,
+        4.139
+      ],
+      "bootstrap_replicates_used": 2000,
+      "published_standardised_pct": null,
+      "published_comparator_pct": null,
+      "published_rate_ratio": null
+    }
+  ]
+}

@@ -1,0 +1,356 @@
+{
+  "design": {
+    "n_pos_per_domain": 30,
+    "n_neg_calibration": 160,
+    "negverify_frame": 55761,
+    "n_negverify": 450,
+    "n_enrich_per_domain": 50,
+    "enriched_domains": [
+      "cognition",
+      "neuropathy",
+      "swallowing",
+      "speech_voice",
+      "hearing",
+      "limb_lymphedema",
+      "visual"
+    ],
+    "composition": "pi = pi1 + (1-pi1)*pi2; phase 3 excluded, strata not recoverable"
+  },
+  "frames": {
+    "cognition": 2242,
+    "neuropathy": 1256,
+    "fatigue": 3095,
+    "pain": 6107,
+    "physical_function": 3024,
+    "swallowing": 830,
+    "speech_voice": 283,
+    "hearing": 148,
+    "respiratory": 1305,
+    "bowel": 2516,
+    "urinary": 1753,
+    "sexual_reproductive": 1137,
+    "limb_lymphedema": 443,
+    "visual": 264,
+    "any_domain": 13842
+  },
+  "rescale_factor": 0.745448,
+  "domains": [
+    {
+      "domain": "cognition",
+      "ht_sensitivity": 1.0,
+      "ht_specificity": 0.987,
+      "ht_ppv_pct": 52.95,
+      "published_specificity": 0.987,
+      "published_ppv_pct": 51.36,
+      "weighted_counts": {
+        "tp": 1002.3,
+        "fp": 890.6,
+        "fn": 0.0,
+        "tn": 67800.6
+      },
+      "ppv_ci_pct": [
+        39.49,
+        65.69
+      ],
+      "npv_pct": 100.0,
+      "validation_records": 1019,
+      "raw_ppv_pct": 44.09
+    },
+    {
+      "domain": "neuropathy",
+      "ht_sensitivity": 1.0,
+      "ht_specificity": 0.9931,
+      "ht_ppv_pct": 54.73,
+      "published_specificity": 0.993,
+      "published_ppv_pct": 53.8,
+      "weighted_counts": {
+        "tp": 579.4,
+        "fp": 479.3,
+        "fn": 0.0,
+        "tn": 68634.8
+      },
+      "ppv_ci_pct": [
+        38.43,
+        70.45
+      ],
+      "npv_pct": 100.0,
+      "validation_records": 1019,
+      "raw_ppv_pct": 45.83
+    },
+    {
+      "domain": "fatigue",
+      "ht_sensitivity": 0.8682,
+      "ht_specificity": 0.9765,
+      "ht_ppv_pct": 42.95,
+      "published_specificity": 0.976,
+      "published_ppv_pct": 40.86,
+      "weighted_counts": {
+        "tp": 1206.7,
+        "fp": 1602.7,
+        "fn": 183.2,
+        "tn": 66700.8
+      },
+      "ppv_ci_pct": [
+        30.48,
+        55.96
+      ],
+      "npv_pct": 99.727,
+      "validation_records": 1019,
+      "raw_ppv_pct": 33.03
+    },
+    {
+      "domain": "pain",
+      "ht_sensitivity": 0.9036,
+      "ht_specificity": 0.9636,
+      "ht_ppv_pct": 51.45,
+      "published_specificity": 0.959,
+      "published_ppv_pct": 51.26,
+      "weighted_counts": {
+        "tp": 2576.9,
+        "fp": 2431.5,
+        "fn": 274.8,
+        "tn": 64410.3
+      },
+      "ppv_ci_pct": [
+        39.97,
+        62.55
+      ],
+      "npv_pct": 99.578,
+      "validation_records": 1019,
+      "raw_ppv_pct": 39.76
+    },
+    {
+      "domain": "physical_function",
+      "ht_sensitivity": 0.8548,
+      "ht_specificity": 0.98,
+      "ht_ppv_pct": 45.97,
+      "published_specificity": 0.98,
+      "published_ppv_pct": 45.5,
+      "weighted_counts": {
+        "tp": 1163.1,
+        "fp": 1367.1,
+        "fn": 197.5,
+        "tn": 66965.8
+      },
+      "ppv_ci_pct": [
+        32.35,
+        58.56
+      ],
+      "npv_pct": 99.721,
+      "validation_records": 1019,
+      "raw_ppv_pct": 36.63
+    },
+    {
+      "domain": "swallowing",
+      "ht_sensitivity": 1.0,
+      "ht_specificity": 0.9927,
+      "ht_ppv_pct": 30.13,
+      "published_specificity": 0.995,
+      "published_ppv_pct": 28.29,
+      "weighted_counts": {
+        "tp": 219.5,
+        "fp": 509.0,
+        "fn": 0.0,
+        "tn": 68965.0
+      },
+      "ppv_ci_pct": [
+        16.06,
+        45.72
+      ],
+      "npv_pct": 100.0,
+      "validation_records": 1019,
+      "raw_ppv_pct": 31.82
+    },
+    {
+      "domain": "speech_voice",
+      "ht_sensitivity": 1.0,
+      "ht_specificity": 0.9975,
+      "ht_ppv_pct": 24.81,
+      "published_specificity": 0.998,
+      "published_ppv_pct": 23.51,
+      "weighted_counts": {
+        "tp": 57.2,
+        "fp": 173.3,
+        "fn": 0.0,
+        "tn": 69463.1
+      },
+      "ppv_ci_pct": [
+        10.43,
+        40.21
+      ],
+      "npv_pct": 100.0,
+      "validation_records": 1019,
+      "raw_ppv_pct": 25.0
+    },
+    {
+      "domain": "hearing",
+      "ht_sensitivity": 1.0,
+      "ht_specificity": 0.999,
+      "ht_ppv_pct": 53.92,
+      "published_specificity": 0.999,
+      "published_ppv_pct": 51.54,
+      "weighted_counts": {
+        "tp": 80.8,
+        "fp": 69.1,
+        "fn": 0.0,
+        "tn": 69543.6
+      },
+      "ppv_ci_pct": [
+        36.06,
+        70.42
+      ],
+      "npv_pct": 100.0,
+      "validation_records": 1019,
+      "raw_ppv_pct": 51.35
+    },
+    {
+      "domain": "respiratory",
+      "ht_sensitivity": 0.8332,
+      "ht_specificity": 0.9921,
+      "ht_ppv_pct": 45.58,
+      "published_specificity": 0.992,
+      "published_ppv_pct": 40.23,
+      "weighted_counts": {
+        "tp": 457.5,
+        "fp": 546.3,
+        "fn": 91.6,
+        "tn": 68598.0
+      },
+      "ppv_ci_pct": [
+        30.08,
+        58.96
+      ],
+      "npv_pct": 99.867,
+      "validation_records": 1019,
+      "raw_ppv_pct": 34.33
+    },
+    {
+      "domain": "bowel",
+      "ht_sensitivity": 0.708,
+      "ht_specificity": 0.9668,
+      "ht_ppv_pct": 16.22,
+      "published_specificity": 0.963,
+      "published_ppv_pct": 16.87,
+      "weighted_counts": {
+        "tp": 444.3,
+        "fp": 2295.6,
+        "fn": 183.2,
+        "tn": 66770.4
+      },
+      "ppv_ci_pct": [
+        7.05,
+        26.22
+      ],
+      "npv_pct": 99.728,
+      "validation_records": 1019,
+      "raw_ppv_pct": 14.02
+    },
+    {
+      "domain": "urinary",
+      "ht_sensitivity": 0.8391,
+      "ht_specificity": 0.9835,
+      "ht_ppv_pct": 29.52,
+      "published_specificity": 0.978,
+      "published_ppv_pct": 28.57,
+      "weighted_counts": {
+        "tp": 477.9,
+        "fp": 1140.9,
+        "fn": 91.6,
+        "tn": 67983.1
+      },
+      "ppv_ci_pct": [
+        16.87,
+        44.09
+      ],
+      "npv_pct": 99.866,
+      "validation_records": 1019,
+      "raw_ppv_pct": 29.51
+    },
+    {
+      "domain": "sexual_reproductive",
+      "ht_sensitivity": 0.402,
+      "ht_specificity": 0.9925,
+      "ht_ppv_pct": 53.34,
+      "published_specificity": 0.992,
+      "published_ppv_pct": 54.45,
+      "weighted_counts": {
+        "tp": 585.3,
+        "fp": 511.9,
+        "fn": 870.7,
+        "tn": 67725.6
+      },
+      "ppv_ci_pct": [
+        38.16,
+        68.3
+      ],
+      "npv_pct": 98.756,
+      "validation_records": 1019,
+      "raw_ppv_pct": 43.4
+    },
+    {
+      "domain": "limb_lymphedema",
+      "ht_sensitivity": 1.0,
+      "ht_specificity": 0.9985,
+      "ht_ppv_pct": 70.14,
+      "published_specificity": 0.999,
+      "published_ppv_pct": 61.79,
+      "weighted_counts": {
+        "tp": 238.6,
+        "fp": 101.6,
+        "fn": 0.0,
+        "tn": 69353.3
+      },
+      "ppv_ci_pct": [
+        52.28,
+        85.24
+      ],
+      "npv_pct": 100.0,
+      "validation_records": 1019,
+      "raw_ppv_pct": 62.5
+    },
+    {
+      "domain": "visual",
+      "ht_sensitivity": 1.0,
+      "ht_specificity": 0.9981,
+      "ht_ppv_pct": 51.58,
+      "published_specificity": 0.998,
+      "published_ppv_pct": 52.15,
+      "weighted_counts": {
+        "tp": 141.9,
+        "fp": 133.2,
+        "fn": 0.0,
+        "tn": 69418.4
+      },
+      "ppv_ci_pct": [
+        34.26,
+        67.92
+      ],
+      "npv_pct": 100.0,
+      "validation_records": 1019,
+      "raw_ppv_pct": 45.0
+    },
+    {
+      "domain": "any_domain",
+      "ht_sensitivity": 0.8462,
+      "ht_specificity": 0.9092,
+      "ht_ppv_pct": 55.88,
+      "published_specificity": 0.897,
+      "published_ppv_pct": 54.19,
+      "weighted_counts": {
+        "tp": 7054.4,
+        "fp": 5568.9,
+        "fn": 1282.5,
+        "tn": 55787.7
+      },
+      "ppv_ci_pct": [
+        49.02,
+        62.47
+      ],
+      "npv_pct": 97.771,
+      "validation_records": 1019,
+      "raw_ppv_pct": 59.09
+    }
+  ],
+  "mean_abs_error_specificity": 0.002,
+  "mean_abs_error_ppv_pp": 1.96
+}

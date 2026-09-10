@@ -1,0 +1,16 @@
+Domain	Observed %	Sensitivity	Specificity	Corrected %	95% credible
+pain	8.78	0.904	0.964	5.92	4.62-7.32
+fatigue	4.45	0.868	0.977	2.48	1.60-3.58
+physical_function	4.34	0.855	0.980	2.81	1.91-3.90
+bowel	3.62	0.708	0.967	0.45	0.00-1.96
+cognition	3.22	1.000	0.987	1.97	1.44-2.42
+urinary	2.52	0.839	0.984	1.05	0.33-2.02
+respiratory	1.88	0.833	0.992	1.29	0.90-2.04
+neuropathy	1.80	1.000	0.993	1.12	0.77-1.43
+sexual_reproductive	1.63	0.402	0.993	2.19	1.18-3.98
+swallowing	1.19	1.000	0.993	0.47	0.14-0.75
+limb_lymphedema	0.64	1.000	0.999	0.49	0.39-0.58
+speech_voice	0.41	1.000	0.998	0.16	0.06-0.27
+visual	0.38	1.000	0.998	0.19	0.09-0.28
+hearing	0.21	1.000	0.999	0.12	0.06-0.17
+any_domain	19.89	0.846	0.909	14.33	12.11-16.70

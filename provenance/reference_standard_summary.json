@@ -1,0 +1,150 @@
+{
+  "n_observations": 15635,
+  "calibration_paired_labels": 7966,
+  "calibration_agreements": 7744,
+  "calibration_disagreements": 222,
+  "raw_agreement_pct": 97.21,
+  "unresolved_dropped": 0,
+  "domains": [
+    {
+      "domain": "cognition",
+      "tp": 41,
+      "fp": 52,
+      "fn": 0,
+      "tn": 976,
+      "sensitivity": 1.0,
+      "specificity": 0.9494,
+      "ppv": 0.4409
+    },
+    {
+      "domain": "neuropathy",
+      "tp": 22,
+      "fp": 26,
+      "fn": 3,
+      "tn": 1018,
+      "sensitivity": 0.88,
+      "specificity": 0.9751,
+      "ppv": 0.4583
+    },
+    {
+      "domain": "fatigue",
+      "tp": 36,
+      "fp": 73,
+      "fn": 2,
+      "tn": 908,
+      "sensitivity": 0.9474,
+      "specificity": 0.9256,
+      "ppv": 0.3303
+    },
+    {
+      "domain": "pain",
+      "tp": 66,
+      "fp": 100,
+      "fn": 3,
+      "tn": 850,
+      "sensitivity": 0.9565,
+      "specificity": 0.8947,
+      "ppv": 0.3976
+    },
+    {
+      "domain": "physical_function",
+      "tp": 37,
+      "fp": 64,
+      "fn": 3,
+      "tn": 915,
+      "sensitivity": 0.925,
+      "specificity": 0.9346,
+      "ppv": 0.3663
+    },
+    {
+      "domain": "swallowing",
+      "tp": 14,
+      "fp": 30,
+      "fn": 0,
+      "tn": 1025,
+      "sensitivity": 1.0,
+      "specificity": 0.9716,
+      "ppv": 0.3182
+    },
+    {
+      "domain": "speech_voice",
+      "tp": 9,
+      "fp": 27,
+      "fn": 1,
+      "tn": 1032,
+      "sensitivity": 0.9,
+      "specificity": 0.9745,
+      "ppv": 0.25
+    },
+    {
+      "domain": "hearing",
+      "tp": 19,
+      "fp": 18,
+      "fn": 0,
+      "tn": 1032,
+      "sensitivity": 1.0,
+      "specificity": 0.9829,
+      "ppv": 0.5135
+    },
+    {
+      "domain": "respiratory",
+      "tp": 23,
+      "fp": 44,
+      "fn": 1,
+      "tn": 951,
+      "sensitivity": 0.9583,
+      "specificity": 0.9558,
+      "ppv": 0.3433
+    },
+    {
+      "domain": "bowel",
+      "tp": 15,
+      "fp": 92,
+      "fn": 2,
+      "tn": 910,
+      "sensitivity": 0.8824,
+      "specificity": 0.9082,
+      "ppv": 0.1402
+    },
+    {
+      "domain": "urinary",
+      "tp": 18,
+      "fp": 43,
+      "fn": 1,
+      "tn": 957,
+      "sensitivity": 0.9474,
+      "specificity": 0.957,
+      "ppv": 0.2951
+    },
+    {
+      "domain": "sexual_reproductive",
+      "tp": 23,
+      "fp": 30,
+      "fn": 11,
+      "tn": 955,
+      "sensitivity": 0.6765,
+      "specificity": 0.9695,
+      "ppv": 0.434
+    },
+    {
+      "domain": "limb_lymphedema",
+      "tp": 20,
+      "fp": 12,
+      "fn": 3,
+      "tn": 1034,
+      "sensitivity": 0.8696,
+      "specificity": 0.9885,
+      "ppv": 0.625
+    },
+    {
+      "domain": "visual",
+      "tp": 18,
+      "fp": 22,
+      "fn": 0,
+      "tn": 1029,
+      "sensitivity": 1.0,
+      "specificity": 0.9791,
+      "ppv": 0.45
+    }
+  ]
+}

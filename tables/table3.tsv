@@ -1,0 +1,14 @@
+Pair	Agent	Domain	Trials	Measuring	Standardised rate %	Standardised rate ratio	95% CI (BCa)
+primary	cisplatin	hearing	2189	27	1.72	11.88	6.34-21.92
+secondary	carboplatin	hearing	2139	7	0.61	4.13	2.10-8.86
+secondary	cisplatin	neuropathy	2189	47	4.13	2.19	1.08-4.27
+secondary	taxane	neuropathy	4119	100	2.37	1.29	0.74-2.06
+secondary	oxaliplatin	neuropathy	1308	27	2.79	1.46	0.72-2.81
+secondary	bortezomib	neuropathy	408	31	2.30	0.97	0.55-1.30
+secondary	imid	neuropathy	986	38	1.16	0.59	0.34-0.90
+negative control	cisplatin	limb_lymphedema	2189	12	0.27	1.10	0.45-2.07
+negative control	cisplatin	visual	2189	6	0.19	0.59	0.18-1.50
+negative control	taxane	visual	4119	12	0.48	1.63	0.77-3.22
+negative control	bortezomib	hearing	408	0	0.00	not estimable	not estimable
+negative control	vincristine	limb_lymphedema	705	0	0.00	not estimable	not estimable
+negative control (post hoc excluded)	cisplatin	speech_voice	2189	29	0.64	1.79	0.60-5.60

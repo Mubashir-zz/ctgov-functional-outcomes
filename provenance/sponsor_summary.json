@@ -1,0 +1,19 @@
+{
+  "n": 51227,
+  "n_industry": 15887,
+  "n_non_industry": 35340,
+  "crude_industry_pct": 15.16,
+  "crude_non_industry_pct": 18.17,
+  "adjusted_or": 1.077,
+  "ci95": [
+    1.017,
+    1.14
+  ],
+  "z": 2.53,
+  "covariates": [
+    "phase",
+    "log enrolment",
+    "registration era"
+  ],
+  "reverses_after_adjustment": true
+}
