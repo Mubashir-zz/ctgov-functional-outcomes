@@ -36,9 +36,15 @@ def test_extractor_selftest_passes():
     _selftest()
 
 
+LABELS = Path(__file__).resolve().parent.parent / "data" / "trial_domain_labels.csv.gz"
+
+
+@pytest.mark.skipif(not LABELS.exists(),
+                    reason="derived corpus not present; rebuild with the fetch and "
+                           "extraction steps in the README")
 def test_domain_labels_are_complete():
     n = 0
-    with gzip.open(ROOT / "data" / "trial_domain_labels.csv.gz", "rt") as fh:
+    with gzip.open(LABELS, "rt") as fh:
         for _ in csv.DictReader(fh):
             n += 1
     assert n % DOMAINS == 0, "every trial must carry a row for all 14 domains"
