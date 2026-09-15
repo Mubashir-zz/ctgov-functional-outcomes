@@ -28,7 +28,7 @@ references/          REFERENCES.ris
 analysis/            the pipeline
 tests/               invariants the outputs must satisfy
 data/                corpus, metadata, labels, cohort, reference standard
-provenance/          one run summary per stage, plus the original analysis notes
+provenance/          one run summary per stage, written by the script that produced it
 ```
 
 One manuscript, one README, one set of tables. A regenerated figure or table replaces the old one.
