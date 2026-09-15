@@ -1,5 +1,7 @@
 # Functional-outcome registration in oncology trials — cisplatin/hearing anchor analysis
 
+[![tests](https://github.com/Mubashir-zz/ctgov-functional-outcomes/actions/workflows/ci.yml/badge.svg)](https://github.com/Mubashir-zz/ctgov-functional-outcomes/actions/workflows/ci.yml)
+
 Cross-sectional analysis of 93,371 outcome-bearing ClinicalTrials.gov cancer records, classified
 across 14 functional domains by a deterministic lexicon extractor, corrected for classification
 error using a human reference standard and Horvitz–Thompson design weights. The primary clinical
