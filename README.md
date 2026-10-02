@@ -13,15 +13,13 @@ crude, 1.72% standardised against a 0.15% matched comparator, rate ratio 11.88 (
 6.34–21.92). Corrected for classification error, hearing registration across the whole corpus is
 0.12% (0.06–0.17) against an observed 0.21%.
 
-Every number in this repository and in the manuscript comes from one analytic release. Nothing is
+Every reported number in this repository comes from one analytic release. Nothing is
 carried over from the earlier release that produced the first draft.
 
 ## Layout
 
 ```
-MANUSCRIPT.docx      the manuscript
-MANUSCRIPT.md        same text, editable
-README.md            this file
+README.md            project overview and reproducibility instructions
 figures/             figure1.png, figure2.png — regenerated from tables/
 tables/              table1.tsv, table2.tsv, table3.tsv — written by the scripts, not by hand
 references/          REFERENCES.ris
@@ -31,7 +29,7 @@ data/                corpus, metadata, labels, cohort, reference standard
 provenance/          one run summary per stage, written by the script that produced it
 ```
 
-One manuscript, one README, one set of tables. A regenerated figure or table replaces the old one.
+One public README and one set of machine-generated tables and figures. A regenerated artifact replaces the old one.
 
 ## Pipeline
 
@@ -142,7 +140,7 @@ and one run summary per stage.
 
 Not tracked: the four large derived files under `data/` — the outcome corpus, the trial metadata,
 the domain labels and the cohort. They are rebuilt by the two fetch steps and the extractor, and
-the registry they come from is public. The manuscript is not published here either; it is an
+the registry they come from is public. The manuscript is maintained outside this public repository and is currently an
 unsubmitted draft.
 
 Rebuilding from an empty `data/` directory takes about twenty minutes, most of it waiting on the
@@ -150,5 +148,10 @@ ClinicalTrials.gov API.
 
 ## Status
 
-Draft for scientific review. Not submitted. The corresponding-author affiliation and contact
-details are placeholders in the manuscript.
+Analysis release ready for scientific review. The manuscript is maintained outside this public
+repository and has not been submitted.
+
+## Author
+
+Mubashir Ahmad Khan, MBBS  
+[ORCID 0009-0003-9842-4513](https://orcid.org/0009-0003-9842-4513)
